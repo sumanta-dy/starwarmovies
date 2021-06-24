@@ -1,0 +1,32 @@
+.mainLayout {
+	height: calc(100vh);
+}
+.moviesHeader {
+	font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px 20px 25px;
+}
+.moviesTable {
+	padding: 0 20px 0 20px;
+}
+.breadcrumb {
+	padding: 20px 0 0 25px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+.spinner {
+  z-index: 2000;
+  margin: auto;
+  left: 50%;
+  right: 50%;
+  position: absolute;
+  bottom: 50%;
+}
